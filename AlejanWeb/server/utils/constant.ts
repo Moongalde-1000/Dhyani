@@ -1,1 +1,0 @@
-export const NOT_LOOKING_FOR_JOB = "Not Looking For Job";
