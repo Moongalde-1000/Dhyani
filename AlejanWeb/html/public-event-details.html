@@ -1,0 +1,409 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Digital Evento - Create digital invitations for your special occasions">
+    <title>Digital Evento - Digital Invitations for Your Special Occasion</title>
+
+    <!-- External Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400&display=swap"
+        rel="stylesheet">
+
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!-- AOS (Animate On Scroll) Library CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- GLightbox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body class="event-listing-body">
+
+    <div class="head-banner">
+        <!-- ========== HEADER SECTION ========== -->
+        <header class="header">
+            <div class="container-fluid">
+                <nav class="navbar">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <img src="images/logof 1.png" alt="Digital Evento Logo" class="logo-img">
+                    </div>
+
+                    <!-- Navigation Menu -->
+                    <ul class="nav-menu" id="navMenu">
+                        <!-- Mobile User Profile Section -->
+                        <div class="mobile-profile-section">
+                            <div class="mobile-profile-header">
+                                <img src="images/Ellipse 43.png" alt="Mahi" class="user-avatar"
+                                    onerror="this.src='https://ui-avatars.com/api/?name=Mahi&background=random'">
+                                <span class="mobile-profile-name">Mahi</span>
+                            </div>
+                            <ul class="mobile-profile-links">
+                                <li><a href="#">My Event</a></li>
+                                <li><a href="#">Profile</a></li>
+                                <li class="logout-item"><a href="#">Logout</a></li>
+                            </ul>
+                        </div>
+                        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                        <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
+                    </ul>
+
+                    <!-- User Profile -->
+                    <div class="user-profile">
+                        <div class="user-profile-trigger">
+                            <img src="images/Ellipse 43.png" alt="Mahi" class="user-avatar"
+                                onerror="this.src='https://ui-avatars.com/api/?name=Mahi&background=random'">
+                            <span class="user-name">Mahi <span class="user-name-icon">▼</span></span>
+                        </div>
+                        <!-- Dropdown Menu -->
+                        <ul class="user-dropdown-menu">
+                            <li><a href="#">My Event</a></li>
+                            <li><a href="#">Profile</a></li>
+                            <li class="logout-item"><a href="#">Logout</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Mobile Menu Toggle (Hamburger) -->
+                    <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- ========== HERO/BANNER SECTION ========== -->
+        <section class="hero-section sub-banner listing-bnr">
+            <div class="container">
+                <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="hero-title">
+                        <span class="title-black">Public Event Details</span>
+                    </h1>
+                    <p>Lorem Ipsum is simply dummy text</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ========== PUBLIC EVENT DETAILS ========== -->
+    <section class="public-event-container container" data-aos="fade-up">
+        <div class="public-event-card">
+
+            <!-- Top Section -->
+            <div class="event-details-top">
+                <div class="event-main-img">
+                    <img src="images/Rectangle 211.png" alt="Event Main">
+                </div>
+                <div class="event-info-right">
+                    <h2 class="event-detail-title">Event Title</h2>
+                    <ul class="event-meta-list">
+                        <li>
+                            <div class="meta-icon-wrapper"><img src="images/Mask group (5).svg" alt="icon"></div>
+                            Host by Jasmin
+                        </li>
+                        <li>
+                            <div class="meta-icon-wrapper"><img src="images/Mask group (6).svg" alt="icon"></div>
+                            10 Dec 2025
+                        </li>
+                        <li>
+                            <div class="meta-icon-wrapper"><img src="images/Mask group (7).svg" alt="icon"></div>
+                            10:00 PM - 12:00 AM
+                        </li>
+                        <li>
+                            <div class="meta-icon-wrapper"><img src="images/Mask group (8).svg" alt="icon"></div>
+                            47 W 13th St, New York, NY 10011, USA
+                        </li>
+                    </ul>
+                    <button class="join-btn">Yes i Want to Join</button>
+                </div>
+            </div>
+
+            <!-- Middle Section -->
+            <div class="event-description">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+
+            <!-- Bottom Section (Galleries & QR) -->
+            <div class="event-gallery-section">
+                <!-- Left: Galleries -->
+                <div class="gallery-left">
+                    <!-- Image Gallery -->
+                    <div class="image-gallery-wrap">
+                        <h3 class="gallery-title">Image Gallery</h3>
+                        <div class="gallery-grid image-grid">
+                            <a href="images/Rectangle 230.png" class="glightbox" data-gallery="image-gallery">
+                                <img src="images/Rectangle 230.png" alt="Gallery Image 1">
+                            </a>
+                            <a href="images/Rectangle 231.png" class="glightbox" data-gallery="image-gallery">
+                                <img src="images/Rectangle 231.png" alt="Gallery Image 2">
+                            </a>
+                            <a href="images/Rectangle 232.png" class="glightbox" data-gallery="image-gallery">
+                                <img src="images/Rectangle 232.png" alt="Gallery Image 3">
+                            </a>
+                            <a href="images/Rectangle 234.png" class="glightbox" data-gallery="image-gallery">
+                                <img src="images/Rectangle 234.png" alt="Gallery Image 4">
+                            </a>
+                            <a href="images/Rectangle 235.png" class="glightbox" data-gallery="image-gallery">
+                                <img src="images/Rectangle 235.png" alt="Gallery Image 5">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Video Gallery -->
+                    <div class="video-gallery-wrap">
+                        <h3 class="gallery-title">Video Gallery</h3>
+                        <div class="gallery-grid video-grid">
+                            <a href="https://www.youtube.com/watch?v=ScMzIvxBSi4" class="glightbox"
+                                data-gallery="video-gallery">
+                                <div class="video-thumbnail">
+                                    <img src="images/Rectangle 233.png" alt="Video Thumbnail">
+                                    <div class="play-overlay">
+                                        <div class="play-icon"></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=ScMzIvxBSi4" class="glightbox"
+                                data-gallery="video-gallery">
+                                <div class="video-thumbnail">
+                                    <img src="images/Rectangle 236.png" alt="Video Thumbnail">
+                                    <div class="play-overlay">
+                                        <div class="play-icon"></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=ScMzIvxBSi4" class="glightbox"
+                                data-gallery="video-gallery">
+                                <div class="video-thumbnail">
+                                    <img src="images/Rectangle 237.png" alt="Video Thumbnail">
+                                    <div class="play-overlay">
+                                        <div class="play-icon"></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: QR Code -->
+                <div class="gallery-right">
+                    <div class="qr-box">
+                        <img src="images/qr(1).png" alt="Event QR Code" class="detail-qr-image">
+                    </div>
+                    <button class="download-qr-btn">View Download</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== FOOTER SECTION ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+
+                <!-- Footer Column 1 - Brand -->
+                <div class="footer-column footer-brand">
+                    <h3 class="footer-logo">Digital Evento</h3>
+                    <p class="footer-description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy ...</p>
+                </div>
+
+                <!-- Footer Column 2 - Useful Links -->
+                <div class="footer-column">
+                    <h4 class="footer-heading">Useful Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Column 3 - Additional Links -->
+                <div class="footer-column">
+                    <h4 class="footer-heading" style="opacity: 0;">Hidden</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Column 4 - Social Media -->
+                <div class="footer-column footer-social">
+                    <h4 class="footer-heading">Lets Connect</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M8.5 10V16" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M8.5 7.5V7.51" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M12 16V13C12 11.8954 12.8954 11 14 11C15.1046 11 16 11.8954 16 13V16"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M12 10V16" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Twitter/X">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                                    fill="currentColor" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p class="copyright">Copyright Â© 2025 Digital Evento</p>
+            </div>
+        </div>
+    </footer>
+    <!-- ========== QR MODAL OVERLAY ========== -->
+    <div class="qr-modal-overlay" id="qrModal">
+        <div class="qr-modal-content">
+            <button class="qr-modal-close" id="qrModalClose">X</button>
+            <h3 class="qr-modal-title">Event Title</h3>
+            <div class="qr-modal-body">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=DigitalEvento" alt="QR Code"
+                    class="qr-image">
+            </div>
+            <button class="qr-modal-download">View Download</button>
+        </div>
+    </div>
+
+    <!-- ========== JOIN EVENT MODAL ========== -->
+    <div class="join-modal-overlay" id="joinModal">
+        <div class="join-modal-content">
+            <button class="join-modal-close" id="joinModalClose">X</button>
+            <h3 class="join-modal-title">Join Events</h3>
+            <form class="join-modal-form">
+                <input type="text" class="join-input" placeholder="Name" required>
+                <input type="email" class="join-input" placeholder="Email Address" required>
+                <input type="tel" class="join-input" placeholder="Phone Number" required>
+                <div class="join-select-wrap">
+                    <select class="join-select" required>
+                        <option value="" disabled selected>No. of person</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4+</option>
+                    </select>
+                </div>
+                <button type="submit" class="join-submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- GLightbox JS -->
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+
+        // Initialize Lightbox
+        const lightbox = GLightbox({
+            selector: '.glightbox',
+            touchNavigation: true,
+            loop: true,
+            autoplayVideos: true
+        });
+
+        // Mobile Menu Toggle
+        document.addEventListener('DOMContentLoaded', function () {
+            const toggle = document.getElementById('mobileMenuToggle');
+            const nav = document.getElementById('navMenu');
+            if (toggle && nav) {
+                toggle.addEventListener('click', function () {
+                    this.classList.toggle('active');
+                    nav.classList.toggle('active');
+                });
+            }
+
+            // User Profile Dropdown Toggle
+            const userProfile = document.querySelector('.user-profile');
+            if (userProfile) {
+                userProfile.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    this.classList.toggle('active');
+                });
+            }
+
+            // Close dropdown when clicking outside
+            document.addEventListener('click', function () {
+                if (userProfile && userProfile.classList.contains('active')) {
+                    userProfile.classList.remove('active');
+                }
+            });
+
+            // Optional Sticky Header
+            window.addEventListener('scroll', function () {
+                const header = document.querySelector('.header');
+                if (window.scrollY > 50) {
+                    header.classList.add('sticky');
+                } else {
+                    header.classList.remove('sticky');
+                }
+            })        // Join Event Modal Logic
+            const joinModal = document.getElementById('joinModal');
+            const joinModalClose = document.getElementById('joinModalClose');
+            const joinBtn = document.querySelector('.join-btn');
+
+            if (joinBtn && joinModal && joinModalClose) {
+                joinBtn.addEventListener('click', () => {
+                    joinModal.classList.add('active');
+                });
+
+                joinModalClose.addEventListener('click', () => {
+                    joinModal.classList.remove('active');
+                });
+
+                joinModal.addEventListener('click', (e) => {
+                    if (e.target === joinModal) {
+                        joinModal.classList.remove('active');
+                    }
+                });
+            }
+
+        });
+    </script>
+</body>
+
+</html>

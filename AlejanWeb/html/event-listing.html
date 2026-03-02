@@ -1,0 +1,633 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Digital Evento - Create digital invitations for your special occasions">
+    <title>Digital Evento - Digital Invitations for Your Special Occasion</title>
+
+    <!-- External Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400&display=swap"
+        rel="stylesheet">
+
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!-- AOS (Animate On Scroll) Library CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body class="event-listing-body">
+
+    <div class="head-banner">
+        <!-- ========== HEADER SECTION ========== -->
+        <header class="header">
+            <div class="container-fluid">
+                <nav class="navbar">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <img src="images/logof 1.png" alt="Digital Evento Logo" class="logo-img">
+                    </div>
+
+                    <!-- Navigation Menu -->
+                    <ul class="nav-menu" id="navMenu">
+                        <!-- Mobile User Profile Section -->
+                        <div class="mobile-profile-section">
+                            <div class="mobile-profile-header">
+                                <img src="images/Ellipse 43.png" alt="Mahi" class="user-avatar"
+                                    onerror="this.src='https://ui-avatars.com/api/?name=Mahi&background=random'">
+                                <span class="mobile-profile-name">Mahi</span>
+                            </div>
+                            <ul class="mobile-profile-links">
+                                <li><a href="#">My Event</a></li>
+                                <li><a href="#">Profile</a></li>
+                                <li class="logout-item"><a href="#">Logout</a></li>
+                            </ul>
+                        </div>
+                        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                        <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
+                    </ul>
+
+                    <!-- User Profile -->
+                    <div class="user-profile">
+                        <div class="user-profile-trigger">
+                            <img src="images/Ellipse 43.png" alt="Mahi" class="user-avatar"
+                                onerror="this.src='https://ui-avatars.com/api/?name=Mahi&background=random'">
+                            <span class="user-name">Mahi <span class="user-name-icon">▼</span></span>
+                        </div>
+                        <!-- Dropdown Menu -->
+                        <ul class="user-dropdown-menu">
+                            <li><a href="#">My Event</a></li>
+                            <li><a href="#">Profile</a></li>
+                            <li class="logout-item"><a href="#">Logout</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Mobile Menu Toggle (Hamburger) -->
+                    <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- ========== HERO/BANNER SECTION ========== -->
+        <section class="hero-section sub-banner listing-bnr">
+            <div class="container">
+                <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="hero-title">
+                        <span class="title-black">Event Listing</span>
+                    </h1>
+                    <p>Lorem Ipsum is simply dummy text</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ========== EVENT LIST ========== -->
+    <section class="event-list-container">
+
+        <!-- Event Card 1 -->
+        <div class="event-card-item" data-aos="fade-up" data-aos-delay="0">
+            <div class="event-card-img-wrap">
+                <img src="images/Rectangle 211.png" alt="Event Image">
+            </div>
+            <div class="event-card-content">
+                <h3 class="event-card-title">Event Title</h3>
+                <div class="event-card-date">10 Dec 2025</div>
+                <p class="event-card-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    industry's standard dummy text ever since the 1500s</p>
+            </div>
+            <div class="event-card-actions">
+                <button class="action-btn-circle" title="Share">
+                    <img src="images/Mask group.svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="View">
+                    <img src="images/Mask group (1).svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="Website">
+                    <img src="images/Mask group (2).svg" alt="">
+                </button>
+            </div>
+        </div>
+
+        <!-- Event Card 2 -->
+        <div class="event-card-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="event-card-img-wrap">
+                <img src="images/Rectangle 213.png" alt="Event Image">
+            </div>
+            <div class="event-card-content">
+                <h3 class="event-card-title">Event Title</h3>
+                <div class="event-card-date">10 Dec 2025</div>
+                <p class="event-card-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    industry's standard dummy text ever since the 1500s</p>
+            </div>
+            <div class="event-card-actions">
+                <button class="action-btn-circle" title="Share">
+                    <img src="images/Mask group.svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="View">
+                    <img src="images/Mask group (1).svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="Website">
+                    <img src="images/Mask group (2).svg" alt="">
+                </button>
+            </div>
+        </div>
+
+        <!-- Event Card 3 -->
+        <div class="event-card-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="event-card-img-wrap">
+                <img src="images/Rectangle 215.png" alt="Event Image">
+            </div>
+            <div class="event-card-content">
+                <h3 class="event-card-title">Event Title</h3>
+                <div class="event-card-date">10 Dec 2025</div>
+                <p class="event-card-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    industry's standard dummy text ever since the 1500s</p>
+            </div>
+            <div class="event-card-actions">
+                <button class="action-btn-circle" title="Share">
+                    <img src="images/Mask group.svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="View">
+                    <img src="images/Mask group (1).svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="Website">
+                    <img src="images/Mask group (2).svg" alt="">
+                </button>
+            </div>
+        </div>
+
+        <!-- Event Card 4 -->
+        <div class="event-card-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="event-card-img-wrap">
+                <img src="images/Rectangle 217.png" alt="Event Image">
+            </div>
+            <div class="event-card-content">
+                <h3 class="event-card-title">Event Title</h3>
+                <div class="event-card-date">10 Dec 2025</div>
+                <p class="event-card-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    industry's standard dummy text ever since the 1500s</p>
+            </div>
+            <div class="event-card-actions">
+                <button class="action-btn-circle" title="Share">
+                    <img src="images/Mask group.svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="View">
+                    <img src="images/Mask group (1).svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="Website">
+                    <img src="images/Mask group (2).svg" alt="">
+                </button>
+            </div>
+        </div>
+
+        <!-- Event Card 5 -->
+        <div class="event-card-item" data-aos="fade-up" data-aos-delay="0">
+            <div class="event-card-img-wrap">
+                <img src="images/Rectangle 211.png" alt="Event Image">
+            </div>
+            <div class="event-card-content">
+                <h3 class="event-card-title">Event Title</h3>
+                <div class="event-card-date">10 Dec 2025</div>
+                <p class="event-card-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    industry's standard dummy text ever since the 1500s</p>
+            </div>
+            <div class="event-card-actions">
+                <button class="action-btn-circle" title="Share">
+                    <img src="images/Mask group.svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="View">
+                    <img src="images/Mask group (1).svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="Website">
+                    <img src="images/Mask group (2).svg" alt="">
+                </button>
+            </div>
+        </div>
+
+        <!-- Event Card 6 -->
+        <div class="event-card-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="event-card-img-wrap">
+                <img src="images/Rectangle 213.png" alt="Event Image">
+            </div>
+            <div class="event-card-content">
+                <h3 class="event-card-title">Event Title</h3>
+                <div class="event-card-date">10 Dec 2025</div>
+                <p class="event-card-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    industry's standard dummy text ever since the 1500s</p>
+            </div>
+            <div class="event-card-actions">
+                <button class="action-btn-circle" title="Share">
+                    <img src="images/Mask group.svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="View">
+                    <img src="images/Mask group (1).svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="Website">
+                    <img src="images/Mask group (2).svg" alt="">
+                </button>
+            </div>
+        </div>
+
+        <!-- Event Card 7 -->
+        <div class="event-card-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="event-card-img-wrap">
+                <img src="images/Rectangle 215.png" alt="Event Image">
+            </div>
+            <div class="event-card-content">
+                <h3 class="event-card-title">Event Title</h3>
+                <div class="event-card-date">10 Dec 2025</div>
+                <p class="event-card-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    industry's standard dummy text ever since the 1500s</p>
+            </div>
+            <div class="event-card-actions">
+                <button class="action-btn-circle" title="Share">
+                    <img src="images/Mask group.svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="View">
+                    <img src="images/Mask group (1).svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="Website">
+                    <img src="images/Mask group (2).svg" alt="">
+                </button>
+            </div>
+        </div>
+
+        <!-- Event Card 8 -->
+        <div class="event-card-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="event-card-img-wrap">
+                <img src="images/Rectangle 217.png" alt="Event Image">
+            </div>
+            <div class="event-card-content">
+                <h3 class="event-card-title">Event Title</h3>
+                <div class="event-card-date">10 Dec 2025</div>
+                <p class="event-card-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    industry's standard dummy text ever since the 1500s</p>
+            </div>
+            <div class="event-card-actions">
+                <button class="action-btn-circle" title="Share">
+                    <img src="images/Mask group.svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="View">
+                    <img src="images/Mask group (1).svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="Website">
+                    <img src="images/Mask group (2).svg" alt="">
+                </button>
+            </div>
+        </div>
+
+        <!-- Event Card 9 -->
+        <div class="event-card-item" data-aos="fade-up" data-aos-delay="0">
+            <div class="event-card-img-wrap">
+                <img src="images/Rectangle 211.png" alt="Event Image">
+            </div>
+            <div class="event-card-content">
+                <h3 class="event-card-title">Event Title</h3>
+                <div class="event-card-date">10 Dec 2025</div>
+                <p class="event-card-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    industry's standard dummy text ever since the 1500s</p>
+            </div>
+            <div class="event-card-actions">
+                <button class="action-btn-circle" title="Share">
+                    <img src="images/Mask group.svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="View">
+                    <img src="images/Mask group (1).svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="Website">
+                    <img src="images/Mask group (2).svg" alt="">
+                </button>
+            </div>
+        </div>
+
+        <!-- Event Card 10 -->
+        <div class="event-card-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="event-card-img-wrap">
+                <img src="images/Rectangle 213.png" alt="Event Image">
+            </div>
+            <div class="event-card-content">
+                <h3 class="event-card-title">Event Title</h3>
+                <div class="event-card-date">10 Dec 2025</div>
+                <p class="event-card-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    industry's standard dummy text ever since the 1500s</p>
+            </div>
+            <div class="event-card-actions">
+                <button class="action-btn-circle" title="Share">
+                    <img src="images/Mask group.svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="View">
+                    <img src="images/Mask group (1).svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="Website">
+                    <img src="images/Mask group (2).svg" alt="">
+                </button>
+            </div>
+        </div>
+
+        <!-- Event Card 11 -->
+        <div class="event-card-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="event-card-img-wrap">
+                <img src="images/Rectangle 215.png" alt="Event Image">
+            </div>
+            <div class="event-card-content">
+                <h3 class="event-card-title">Event Title</h3>
+                <div class="event-card-date">10 Dec 2025</div>
+                <p class="event-card-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    industry's standard dummy text ever since the 1500s</p>
+            </div>
+            <div class="event-card-actions">
+                <button class="action-btn-circle" title="Share">
+                    <img src="images/Mask group.svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="View">
+                    <img src="images/Mask group (1).svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="Website">
+                    <img src="images/Mask group (2).svg" alt="">
+                </button>
+            </div>
+        </div>
+
+        <!-- Event Card 12 -->
+        <div class="event-card-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="event-card-img-wrap">
+                <img src="images/Rectangle 217.png" alt="Event Image">
+            </div>
+            <div class="event-card-content">
+                <h3 class="event-card-title">Event Title</h3>
+                <div class="event-card-date">10 Dec 2025</div>
+                <p class="event-card-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    industry's standard dummy text ever since the 1500s</p>
+            </div>
+            <div class="event-card-actions">
+                <button class="action-btn-circle" title="Share">
+                    <img src="images/Mask group.svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="View">
+                    <img src="images/Mask group (1).svg" alt="">
+                </button>
+                <button class="action-btn-circle" title="Website">
+                    <img src="images/Mask group (2).svg" alt="">
+                </button>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination-container">
+            <button class="page-btn page-nav"><img src="images/Mask group (4).svg" alt=""></button>
+            <button class="page-btn">1</button>
+            <button class="page-btn">2</button>
+            <button class="page-btn">3</button>
+            <button class="page-btn page-nav"><img src="images/Mask group (3).svg" alt=""></button>
+        </div>
+
+    </section>
+
+    <!-- ========== FOOTER SECTION ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+
+                <!-- Footer Column 1 - Brand -->
+                <div class="footer-column footer-brand">
+                    <h3 class="footer-logo">Digital Evento</h3>
+                    <p class="footer-description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy ...</p>
+                </div>
+
+                <!-- Footer Column 2 - Useful Links -->
+                <div class="footer-column">
+                    <h4 class="footer-heading">Useful Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Column 3 - Additional Links -->
+                <div class="footer-column">
+                    <h4 class="footer-heading" style="opacity: 0;">Hidden</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Column 4 - Social Media -->
+                <div class="footer-column footer-social">
+                    <h4 class="footer-heading">Lets Connect</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M8.5 10V16" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M8.5 7.5V7.51" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M12 16V13C12 11.8954 12.8954 11 14 11C15.1046 11 16 11.8954 16 13V16"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M12 10V16" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Twitter/X">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                                    fill="currentColor" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p class="copyright">Copyright Â© 2025 Digital Evento</p>
+            </div>
+        </div>
+    </footer>
+    <!-- ========== QR MODAL OVERLAY ========== -->
+    <div class="qr-modal-overlay" id="qrModal">
+        <div class="qr-modal-content">
+            <button class="qr-modal-close" id="qrModalClose">X</button>
+            <h3 class="qr-modal-title">Event Title</h3>
+            <div class="qr-modal-body">
+                <img src="images/qr(1).png" alt="QR Code" class="qr-image">
+            </div>
+            <button class="qr-modal-download">View Download</button>
+        </div>
+    </div>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- Custom JS -->
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+
+        // Mobile Menu Toggle
+        document.addEventListener('DOMContentLoaded', function () {
+            const toggle = document.getElementById('mobileMenuToggle');
+            const nav = document.getElementById('navMenu');
+            if (toggle && nav) {
+                toggle.addEventListener('click', function () {
+                    this.classList.toggle('active');
+                    nav.classList.toggle('active');
+                });
+            }
+
+            // User Profile Dropdown Toggle
+            const userProfile = document.querySelector('.user-profile');
+            if (userProfile) {
+                userProfile.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    this.classList.toggle('active');
+                });
+            }
+
+            // Close dropdown when clicking outside
+            document.addEventListener('click', function () {
+                if (userProfile && userProfile.classList.contains('active')) {
+                    userProfile.classList.remove('active');
+                }
+            });
+
+            // Optional Sticky Header
+            window.addEventListener('scroll', function () {
+                const header = document.querySelector('.header');
+                if (window.scrollY > 50) {
+                    header.classList.add('sticky');
+                } else {
+                    header.classList.remove('sticky');
+                }
+            });
+
+            // Pagination Logic
+            const listContainer = document.querySelector('.event-list-container');
+            const paginationNode = document.querySelector('.pagination-container');
+            const allItems = Array.from(document.querySelectorAll('.event-card-item'));
+            const itemsPerPage = 4;
+            let currentPage = 1;
+            const totalPages = Math.ceil(allItems.length / itemsPerPage);
+
+            function renderPage(page) {
+                currentPage = page;
+
+                // Show/hide logic
+                allItems.forEach((item, index) => {
+                    if (index >= (page - 1) * itemsPerPage && index < page * itemsPerPage) {
+                        item.style.display = 'flex';
+                        // Small timeout to allow CSS display:flex to apply before adding animation class
+                        setTimeout(() => {
+                            item.classList.add('aos-animate');
+                        }, 50);
+                    } else {
+                        item.style.display = 'none';
+                        item.classList.remove('aos-animate');
+                    }
+                });
+
+                renderPagination();
+
+                // Scroll to top of list container if not first load
+                if (page > 1 || page < currentPage) {
+                    const topPos = listContainer.getBoundingClientRect().top + window.scrollY - 100;
+                    window.scrollTo({ top: topPos, behavior: 'smooth' });
+                }
+            }
+
+            function renderPagination() {
+                paginationNode.innerHTML = '';
+
+                // Prev button
+                const prevBtn = document.createElement('button');
+                prevBtn.className = 'page-btn page-nav';
+                prevBtn.innerHTML = '<img src="images/Mask group (4).svg" alt="">';
+                prevBtn.onclick = () => { if (currentPage > 1) renderPage(currentPage - 1); };
+                prevBtn.disabled = currentPage === 1;
+                if (currentPage === 1) prevBtn.style.opacity = '0.5';
+                paginationNode.appendChild(prevBtn);
+
+                // Page numbers
+                for (let i = 1; i <= totalPages; i++) {
+                    const btn = document.createElement('button');
+                    btn.className = `page-btn ${i === currentPage ? 'active' : ''}`;
+                    btn.innerText = i;
+                    btn.onclick = () => renderPage(i);
+                    paginationNode.appendChild(btn);
+                }
+
+                // Next button
+                const nextBtn = document.createElement('button');
+                nextBtn.className = 'page-btn page-nav';
+                nextBtn.innerHTML = '<img src="images/Mask group (3).svg" alt="">';
+                nextBtn.onclick = () => { if (currentPage < totalPages) renderPage(currentPage + 1); };
+                nextBtn.disabled = currentPage === totalPages;
+                if (currentPage === totalPages) nextBtn.style.opacity = '0.5';
+                paginationNode.appendChild(nextBtn);
+            }
+
+            // Initialize pagination
+            renderPage(1);
+
+            // QR Scanner Modal Logic
+            const qrModal = document.getElementById('qrModal');
+            const qrModalClose = document.getElementById('qrModalClose');
+
+            // Open Modal when clicking "Scan/Share" button (first button in the group)
+            document.addEventListener('click', function (e) {
+                const actionBtn = e.target.closest('.action-btn-circle');
+                if (actionBtn && actionBtn.getAttribute('title') === 'Share') {
+                    // Temporarily using title="Share" to identify the scan button based on the original HTML
+                    qrModal.classList.add('active');
+                }
+            });
+
+            // Close Modal
+            qrModalClose.addEventListener('click', () => {
+                qrModal.classList.remove('active');
+            });
+
+            // Close when clicking outside of the modal
+            qrModal.addEventListener('click', (e) => {
+                if (e.target === qrModal) {
+                    qrModal.classList.remove('active');
+                }
+            });
+
+        });
+    </script>
+</body>
+
+</html>
